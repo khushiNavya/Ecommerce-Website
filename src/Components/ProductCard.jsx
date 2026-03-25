@@ -60,9 +60,7 @@ const ProductCard = ({ data }) => {
 
                     <p className=" ml-1 text-[13px]">{rating}</p>
                 </div>
-                <button className="w-full bg-blue-600 rounded-2xl h-8 text-center" >
-                    Add to Cart
-                </button>
+                
 
             </div>
         </Link>
