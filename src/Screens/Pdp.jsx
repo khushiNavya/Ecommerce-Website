@@ -6,7 +6,7 @@ import PdpSkelton from "../Components/PdpSkelton";
 import ProductReviews from "../Components/ProductReviews";
 import { ThemeContext } from "../Store/ThemeProvider";
 import UseGetProductById from "../Hooks/UseGetProductById"
-import UseWishlistproduct from "../Hooks/UseWishlistProduct";
+import UseWishlistproduct from "../Hooks/UseWishlistproduct";
 import UseCartProduct from "../Hooks/UseCartProduct";
 
 const Pdp = () => {
