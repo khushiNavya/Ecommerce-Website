@@ -4,13 +4,13 @@ import ProductGrid from "../Components/ProductGrid";
 import Carousal from "../Components/Carousal";
 
 const Home = () => {
-   
+
 
   return (
     <div>
       <Navbar />
-      <Carousal/>
-     <ProductGrid/>
+      <Carousal />
+      <ProductGrid />
     </div>
   )
 }
