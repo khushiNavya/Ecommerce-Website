@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { ThemeContext } from "../Store/ThemeProvider";
 import Heart from "../Icons/Heart";
 // import UseIsProductInWishlist from "../Hooks/UseIsProductInWishlist";
-import UseWishlistproduct from "../Hooks/UseWishlistProduct";
+import UseWishlistproduct from "../Hooks/UseWishlistproduct";
 const ProductCard = ({ data }) => {
     const { theme } = useContext(ThemeContext);
     const { title, price, discountPercentage, rating, brand, thumbnail, id } = data;
